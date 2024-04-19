@@ -15,12 +15,15 @@ An API key from OpenAI is required to run this application. This key is necessar
 ## Setup
 
 1. **Running the Application**  
+
    To run the application, execute the following command:
+
    ```bash
    streamlit run main.py
 
 ## Retraining the Model
-    If you wish to retrain the system with another content:
+
+If you wish to retrain the system with another content:
 
 - Provide new links containing relevant information in the `scrapper.py` file.
 - Run the scrapping script to collect new data and retrain the RAG model with the updated dataset.
