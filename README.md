@@ -14,7 +14,18 @@ An API key from OpenAI is required to run this application. This key is necessar
 
 ## Setup
 
-1. **Running the Application**  
+1. **Install Requirements**  
+
+    Navigate to the cloned directory and install the required Python packages:
+
+   ```bash
+   pip install -r requirements.txt
+
+2. **Set the API Key**  
+
+    Provide your OpenAI API key by setting it as an environment variable.
+
+3. **Running the Application**  
 
    To run the application, execute the following command:
 
